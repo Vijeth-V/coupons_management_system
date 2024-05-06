@@ -1,0 +1,71 @@
+/* Custom styles for the navigation bar */
+.top-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .top-nav h1 {
+    color: #fff;
+    float: left;
+    margin: 0;
+  }
+  
+  .top-nav ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .top-nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .top-nav li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the Login/Signup Navigation */
+  .login-signup-nav {
+    float: right;
+    margin: 10px 0;
+  }
+  
+  .login-signup-nav li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .login-signup-nav li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Optional: Adjust the appearance of the active page in the navigation */
+  .top-nav li.active a {
+    background-color: #555;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  

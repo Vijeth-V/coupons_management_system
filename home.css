@@ -1,0 +1,140 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation Bar Styles */
+.top-nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.top-nav h1 {
+  color: #fff;
+  float: left;
+}
+
+.top-nav ul {
+  float: right;
+  list-style: none;
+}
+
+.top-nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.top-nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Main Content Styles */
+.container h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Login/Signup Navigation Styles */
+.login-signup-nav {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.login-signup-nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.login-signup-nav li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Existing styles remain unchanged */
+
+/* New styles for the "Add Coupon" button and container */
+.add-coupon-button-container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.add-coupon-button {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  position:relative;
+  right: 90px;
+  top: 20px;
+}
+
+/* New styles for the cards and container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  /* Add a scroll bar when content overflows the container height */
+  overflow-y: auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr)); /* Three cards per row */
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  /* Ensure the cards are square-shaped */
+  width: 200px;
+  height: 200px;
+}
+
+.card h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.card p {
+  margin-top: 10px;
+}
